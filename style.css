@@ -1,0 +1,150 @@
+
+
+body {
+    background-color: hsl(225, 100%, 94%);
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+   
+.div_container {
+    border: 0px solid white;
+    background-color: white;
+    width: 25em;
+    height: 38em;
+    border-radius: 1em;
+    box-shadow: 0 10px 10px #b1cbce;  
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+.hero {
+    width: 25em;
+    border-radius: 1em 1em 0 0;    
+}
+
+.order{
+    font-size: 1.5em;
+    color: hsl(223, 47%, 23%);
+    font-weight: bold;
+    text-align: center;
+    top: 13em;
+    left: 6.3em;  
+}
+
+
+.youcan{
+    font-size: 1em;
+    color:hsl(246, 22%, 62%);
+    top: 15.5em;
+    left: 3.2em;
+    text-align: center;
+    padding: 0 2em 0 2em ;
+    
+}
+
+.plan{
+background-color: #eef9f7;
+width: 20em;
+height: 6em;
+display: flex;
+align-items: center;
+border: 0px solid red;
+margin: auto;
+border-radius: 2vh;
+}
+
+
+.plan img{
+  margin: 1em;
+}
+
+.annual_plan{
+    display:block;
+    font-weight:bold;
+    font-size: 1em;
+    position:relative;
+    bottom: 10px;
+    color: hsl(223, 47%, 23%);
+}
+
+
+.price{
+    font-size: 1em;
+    color: hsl(246, 22%, 62%);
+    position: relative;
+    top: 14px;
+    right: 5.5em;
+
+}
+
+
+
+.change{
+    color: hsl(245, 75%, 52%);
+    font-weight: bold;
+    font-size: 1em;
+    text-decoration: underline;
+    position: relative;
+    right: 2vw;
+
+}
+
+.change:focus {
+    color: hsl(245, 63%, 75%);
+    text-decoration: none;
+}
+
+.payment{
+    border: 0px;
+      background-color:hsl(245, 75%, 52%) ;
+      width: 20em;
+      height: 3em;
+      border-radius: 2vh;
+      margin: auto;
+      margin-bottom: 1.5em;
+      font-size: 1em;
+      font-family: red hat display;
+      text-align: center;
+      display: block;
+      box-shadow: 0 0.5em 2em #b1cbce;
+      color: white;
+      margin-top: 5vh;
+      }
+    
+
+
+
+.cancel{
+    color:hsl(246, 22%, 62%);
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-weight:600;
+    font-size: .8em;
+    margin-top: 2em;
+}
+
+.attribution {
+    margin: 2.5em 0 0 0;
+    padding: auto;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Red Hat Display', sans-serif;
+    color: #6c7374
+}
+
+.attribution a {
+    color: #3f546d;
+}
+
+
